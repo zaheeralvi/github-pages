@@ -7,13 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={`${process.env.PUBLIC_URL}/images/zaheer.jpg`} className="App-logo" alt="logo" />
-        <p>
-         My First Progressive Web APP
-        </p>
-        <a
-          className="App-link" href="https://www.linkedin.com/in/zaheer-abbas-9a6aa8105/" target="_blank" rel="noopener noreferrer" >
-          Zaheer Alvi
-        </a>
+        <a className="App-link" href="https://www.linkedin.com/in/zaheer-abbas-9a6aa8105/" target="_blank" rel="noopener noreferrer" >Zaheer Alvi </a>
+        <p>My First Progressive Web APP</p>
       </header>
     </div>
   );
